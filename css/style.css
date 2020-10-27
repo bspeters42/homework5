@@ -224,7 +224,7 @@ header{
   body {background-image: none;}
 
   .pricing {align-items: top;} 
-  .gallery #gallery {display: none;}
+  .gallery, #gallery {display: none;}
   
 
 }
@@ -247,5 +247,14 @@ header{
     header{
       background-attachment: initial;
     }
+    #logo{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      animation-name: none;
+      animation-duration: none;
+    }
+    
   }
   
