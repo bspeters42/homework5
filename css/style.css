@@ -79,11 +79,11 @@ footer{
 /* Cards! */
 .pricing{
     min-height: 500px;
-    
+
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: top;
+    align-items: center;
 }
 
 .card {
@@ -91,9 +91,7 @@ footer{
   background: #fff;
   border-radius: 7px;
   padding: 0 0 50px 0;
-  flex-basis: 400px;        /*still not sure...*/ 
-  /*Your code here.*/
-  /*Take a look at flex-basis*/
+  flex-basis: 400px;
 
 }
 
@@ -186,7 +184,7 @@ header{
     background: #fff;
     border-radius: 7px;
     padding: 0 0 50px 0;
-    flex-basis: 250px;
+    flex-basis: 225px;
     justify-content: center;
   }
 
@@ -200,18 +198,19 @@ header{
     
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
 
   .nav_links{
 
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .nav_item a{
     padding: 10px;
-
+    justify-content: space-between;
     align-content: center;
   }
 }
