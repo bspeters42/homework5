@@ -16,6 +16,7 @@ h2{
   font-size: 1.5em;
   text-align: center;
   padding: 5px;
+
 }
 
 p {
@@ -78,10 +79,11 @@ footer{
 /* Cards! */
 .pricing{
     min-height: 500px;
+    
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
+    align-items: top;
 }
 
 .card {
@@ -131,22 +133,6 @@ footer{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .card_big{
   -webkit-transform: initial;
           transform: initial;
@@ -171,9 +157,9 @@ footer{
 header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
-  align-items: center;
-  justify-content: center;
   /*Your  code here again.*/
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .nav_links{
@@ -237,9 +223,9 @@ header{
   /*Your code here again.*/
   /*You will want four selectors*/ 
   body {background-image: none;}
+
   .pricing {align-items: top;} 
-  .gallery {display: none;}
-  #gallery {display: none;}
+  .gallery #gallery {display: none;}
   
 
 }
