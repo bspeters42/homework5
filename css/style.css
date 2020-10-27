@@ -89,8 +89,7 @@ footer{
   background: #fff;
   border-radius: 7px;
   padding: 0 0 50px 0;
-  min-width: 400px;
-  flex-basis: 1.0;        /*still not sure...*/ 
+  flex-basis: 400px;        /*still not sure...*/ 
   /*Your code here.*/
   /*Take a look at flex-basis*/
 
@@ -173,6 +172,7 @@ header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
   align-items: center;
+  justify-content: center;
   /*Your  code here again.*/
 }
 
@@ -200,8 +200,8 @@ header{
     background: #fff;
     border-radius: 7px;
     padding: 0 0 50px 0;
-    min-width: 400px;
-    /* flex-basis: 1;   */
+    flex-basis: 250px;
+    justify-content: center;
   }
 
   .card_big{
@@ -235,7 +235,13 @@ header{
     flex-basis: 200px;
   }
   /*Your code here again.*/
-  /*You will want four selectors*/  
+  /*You will want four selectors*/ 
+  body {background-image: none;}
+  .pricing {align-items: top;} 
+  .gallery {display: none;}
+  #gallery {display: none;}
+  
+
 }
 
 /*Your code here again.*/ 
